@@ -13,7 +13,8 @@
 <!-----------  Menú de navegación superior-------  #nav>.centrado>(a#logo>img)+(ul#menu>(li>a[#])*5)-->
     <div id="nav">
         <div class="centrado">
-            <a href="#" id="logo"><img src="img/logowhatsapp.svg" alt=""></a>
+            <div id="logo"><a href="#"><img src="img/logowhatsapp.svg" alt=""></a>
+            </div>
             <ul id="menu">
                 <li><a href="#">WhatsApp Web</a></li>
                 <li><a href="#">Funciones</a></li>
@@ -68,11 +69,13 @@
                     </ul>
                 </div>
             </div>
-            <div id="terms">
-                <p>2021 &copy; WhatsApp LLC</p>
-                <a href="#">Privacidad y Condiciones</a>
-            </div>
         </div>
+            <div id="terms"><div class="centrado">
+                <div id="copy"><p>2021 &copy; WhatsApp LLC</p>
+                </div>
+                <div id="priv"><p><a href="#">Privacidad y Condiciones</a></p></div>
+                </div>
+            </div>
     </div>
 </body>
 </html>
