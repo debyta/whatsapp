@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.centrado {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    background-color: #1EBEA5;
+   
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu li {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#menu a {
+    color: #fff;
+    
+}
+
+
+/*********************media queriiiiii**********************************/
+/*@media screen and (max-width: 992px) {}*/
