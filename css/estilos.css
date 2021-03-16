@@ -44,7 +44,6 @@ ul {
 #logo {
     width: 250px;
     float: left;
-    /*    padding: 50% 0;*/
 }
 
 #logo img {
@@ -54,8 +53,6 @@ ul {
 #menu {
     float: right;
     padding: 3% 0;
-    /*    display: flex;*/
-    /*    justify-content: space-around;*/
 }
 
 #menu li {
@@ -382,7 +379,7 @@ h4 {
 
 #textSeg,
 #notapie,
-#propiedadesSeg{
+#propiedadesSeg {
     padding: 3% 13%;
 }
 
@@ -396,7 +393,7 @@ h4 {
 #propiedadesSeg {
     width: 100%;
     overflow: hidden;
-/*    clear: both;*/
+    /*    clear: both;*/
 }
 
 #propiedadesSeg div {
@@ -409,19 +406,19 @@ h4 {
 #propiedadesSeg img {
     width: 150px;
     height: auto;
-/*    border-radius: 50%;*/
+    /*    border-radius: 50%;*/
     margin-left: -16px;
     padding-bottom: 3%;
 }
 
-#propiedadesSeg img+p {
+#propiedadesSeg img + p {
     font-size: 17px;
     line-height: 26px;
-font-weight: 500;
+    font-weight: 500;
     color: #282828;
 }
 
-#propiedadesSeg p+p {
+#propiedadesSeg p + p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -430,7 +427,8 @@ font-weight: 500;
     padding-top: 3%;
 }
 
-#propiedadesSeg a:hover, #textSeg a:hover {
+#propiedadesSeg a:hover,
+#textSeg a:hover {
     text-decoration: underline;
 }
 
@@ -453,8 +451,9 @@ font-weight: 500;
     background-size: cover;
     background-position: top center;
 }
+
 .buscar {
-   background: #fff;
+    background: #fff;
     border: 1px solid transparent;
     border-radius: 50px;
     color: #1ebea5;
@@ -483,8 +482,7 @@ font-weight: 500;
 
 #ayuda1,
 #ayuda2,
-#ayuda3
-{
+#ayuda3 {
     overflow: hidden;
     margin: 2.5% 0% 3% 0%;
 }
@@ -531,6 +529,109 @@ font-weight: 500;
 .bordeGris {
     margin-bottom: 24px;
     border-bottom: 1px solid #f3f4f5;
+}
+
+/*----------------------------funciones-------------------*/
+
+#contFunc {
+    text-align: center;
+    width: 100%;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.text2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #414a53;
+    letter-spacing: 0.5px;
+    padding: 0% 0 5% 0;
+}
+
+#colIzq {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+#colIzq div,
+#colDcha div {
+    margin-bottom: 4%;
+}
+
+#izq1,
+#izq3,
+#izq4 {
+    background-color: #FBF9EF;
+}
+
+#izq1 {
+    padding: 6%;
+}
+
+#izq1 img {
+    padding: 3%;
+    width: 80%;
+    height: auto;
+}
+
+/*
+#imgIzq1{
+  position: relative;
+height: 100%;
+    padding-top: 0%;
+}
+
+#imgIzq11 {
+        background-size: contain;
+    background-image: url(../img/movil1.png);
+    background-repeat: no-repeat;
+    background-size: auto 800px;
+    background-position: 50% 50%;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+*/
+
+#izq2 {
+    padding: 6% 6% 0 ;
+    background-color: #D8E8EA;
+}
+
+.rasAbajo {
+    width: 90%;
+    margin-bottom: -4px;
+}
+
+.disminuir {
+    width: 50%;
+}
+
+.rasArriba {
+    width: 50%;
+    margin-top: -4px;
+    padding-bottom: 8%
+}
+
+#izq3 {
+    padding: 0 6% 6% 6%;
+
+}
+
+#izq4 {
+    padding: 10% 6% 0;
+}
+
+#colDcha {
+    border: 1px solid red;
+    float: right;
+    width: 48%;
 }
 
 /*--------------------footer------------------------------*/
